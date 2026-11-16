@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,11 +47,4 @@ data.candidates[0].content.parts[0].text;
  document.getElementById("reply").innerText = "ERROR: " + 
 JSON.stringify(data);
  }
- }catch(e)
- {document.getElementById("reply").innerText = "NETWORK ERROR: " + e.message;
- document.getElementById("status").innerText = "CONNECTION FAILED";
- }
-}
-</script>
-</body>
-</html>
+ }catch(e){
