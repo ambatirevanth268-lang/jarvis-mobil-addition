@@ -22,7 +22,7 @@
 <div id="reply">Waiting for response...</div>
 <script>
 // PASTE YOUR API KEY BELOW (Inside the quotes)
-const API_KEY = "PASTE_YOUR_API_KEY_HERE";
+const API_KEY = "AQ.Ab8RN6LRiV6D6wZSRIYAaD7kYS324giirIlKEgMXJq7YkERNlA";
 async function ask(){
  document.getElementById("reply").innerText = "PROCESSING...";
  document.getElementById("status").innerText = "CONNECTING...";
